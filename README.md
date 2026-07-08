@@ -6,7 +6,7 @@
 
 ### 🏋️ The Exercise Database API for developers
 
-**1,324 structured exercises** · **Fast & EU-hosted** · **Built to be un-scrapable**
+**1,324 structured exercises** · **Sub-50ms, EU-hosted** · **Rate-limited & abuse-protected**
 
 <p>
   <a href="https://fitexercisedb.com"><img src="https://img.shields.io/badge/Website-a3e635?style=for-the-badge&logo=googlechrome&logoColor=0a0a0a" alt="Website" /></a>
@@ -44,7 +44,7 @@ Skip the scraping, the messy CSVs, and the licensing headaches. Wire up one clea
 - 📊 **Predictable limits** — `X-RateLimit-*` headers on every response
 - 🧩 **Errors you can code against** — RFC 7807 `application/problem+json`
 - 🇪🇺 **EU-hosted, GDPR-friendly** — daily-salted IP hashing, no PII in logs
-- 🛡️ **Built to be un-scrapable** — your subscription cannot quietly become everyone's copy
+- 🛡️ **Abuse-protected by design** — per-key rate limits, leak forensics, and usage logging keep the dataset yours
 - 💶 **Fair, flat EUR pricing** — no per-call overage surprises
 
 **Perfect for:**
@@ -115,9 +115,9 @@ Each exercise returns: `id`, `name`, `bodyPart`, `target`, `equipment`, `seconda
 
 ---
 
-## 🛡️ Built to be un-scrapable
+## 🛡️ Abuse protection, built in
 
-Most exercise datasets get scraped once and passed around forever. FitExerciseDB is engineered so a single subscription cannot silently become everyone's copy:
+Most exercise datasets get scraped once and passed around forever. FitExerciseDB ships with real protection so a single subscription cannot silently become everyone's copy:
 
 - **Per-key token bucket** — atomic Redis rate limiting, enforced before the database is touched.
 - **Sequential-scan detection** — walking ids in order on the free tier triggers progressive delays, then a hard stop.
@@ -180,7 +180,7 @@ The free tier needs only a 30-second email signup and is enough to verify your i
 
 ## 📬 Contact
 
-- **General & partnerships:** hello@fitexercisedb.com
+- **General & partnerships:** [linkedin.com/in/taoufik-jabbari](https://www.linkedin.com/in/taoufik-jabbari)
 - **Issues & feature requests:** open an issue in this repository
 
 ---
