@@ -9,15 +9,18 @@
 **1,324 structured exercises** · **Fast & EU-hosted** · **Built to be un-scrapable**
 
 <p>
-  <a href="https://fitexercisedb.com"><img src="https://img.shields.io/badge/Get%20Started-a3e635?style=for-the-badge&logo=rocket&logoColor=0a0a0a" alt="Get Started" /></a>
+  <a href="https://fitexercisedb.com"><img src="https://img.shields.io/badge/Website-a3e635?style=for-the-badge&logo=googlechrome&logoColor=0a0a0a" alt="Website" /></a>
+  <a href="https://fitexercisedb.com"><img src="https://img.shields.io/badge/Subscribe%20%26%20Manage-22c55e?style=for-the-badge&logo=stripe&logoColor=white" alt="Subscribe and manage your subscription" /></a>
   <a href="#-api-reference"><img src="https://img.shields.io/badge/API%20Reference-1f2937?style=for-the-badge&logo=readthedocs&logoColor=white" alt="API Reference" /></a>
   <a href="#-pricing"><img src="https://img.shields.io/badge/Pricing-1f2937?style=for-the-badge&logo=stripe&logoColor=white" alt="Pricing" /></a>
 </p>
 
+<sub>🔑 Sign up, subscribe, and manage your API keys at <a href="https://fitexercisedb.com"><b>fitexercisedb.com</b></a></sub>
+
 <p>
   <img src="https://img.shields.io/badge/exercises-1%2C324-a3e635" alt="1324 exercises" />
   <img src="https://img.shields.io/badge/REST%20API-v1-4ade80" alt="REST API v1" />
-  <img src="https://img.shields.io/badge/hosted-EU%20%F0%9F%87%AA%F0%9F%87%BA-0ea5e9" alt="EU hosted" />
+  <img src="https://img.shields.io/badge/hosted%20in-EU-0ea5e9" alt="Hosted in the EU" />
   <img src="https://img.shields.io/badge/errors-RFC%207807-8b5cf6" alt="RFC 7807 errors" />
   <img src="https://img.shields.io/badge/license-MIT-64748b" alt="MIT license" />
 </p>
@@ -55,6 +58,10 @@ Skip the scraping, the messy CSVs, and the licensing headaches. Wire up one clea
 ---
 
 ## ⚡ Quick start
+
+<div align="center">
+  <img src="./assets/demo.gif" alt="FitExerciseDB API demo: a curl request returning structured exercise JSON" width="90%" />
+</div>
 
 ```bash
 curl https://api.fitexercisedb.com/v1/exercises/0001 \
